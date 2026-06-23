@@ -7,24 +7,30 @@
     <title>Lista de tarefas</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
+<!-- Regras do git
+feat: → nova funcionalidade
+fix: → correção de bug
+docs: → alteração na documentação
+style: → mudanças visuais ou de formatação (sem alterar lógica)
+refactor: → reorganização do código sem mudar comportamento
+test: → criação ou alteração de testes
+chore: → tarefas de manutenção (configurações, dependências, etc.)
+perf: → melhoria de desempenho
+-->
 <body>
     <div class="main">
         <div class="add">
             <input type="text">
             <button id="adicionar">Adicionar</button>
         </div>
-        <div class="tarefas">
-            <ul>
-                <li>Estudar</li>
-                <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
-                <li>Lavar a louça</li>
-                <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
-                <li>Limpar a casa</li>
-                <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
-            </ul>
-        </div>
+        <ul class="tarefas">
+            <li>Estudar</li>
+            <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
+            <li>Lavar a louça</li>
+            <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
+            <li>Limpar a casa</li>
+            <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
+        </ul>
     </div>
 </body>
-
 </html>
