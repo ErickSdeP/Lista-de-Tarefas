@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de tarefas</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
+
 <!-- Regras do git
 feat: → nova funcionalidade
 fix: → correção de bug
@@ -17,6 +19,7 @@ test: → criação ou alteração de testes
 chore: → tarefas de manutenção (configurações, dependências, etc.)
 perf: → melhoria de desempenho
 -->
+
 <body>
     <div class="main">
         <div class="add">
@@ -24,13 +27,20 @@ perf: → melhoria de desempenho
             <button id="adicionar">Adicionar</button>
         </div>
         <ul class="tarefas">
-            <li>Estudar</li>
-            <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
-            <li>Lavar a louça</li>
-            <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
-            <li>Limpar a casa</li>
-            <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
+            <li class="tarefa">
+                <span>Estudar</span>
+                <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
+            </li>
+            <li class="tarefa">
+                <span>Lavar a louça</span>
+                <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
+            </li>
+            <li class="tarefa">
+                <span>Limpar a casa</span>
+                <button type="button"><img src="Svgs/Lixo.svg" alt="Excluir"></button>
+            </li>
         </ul>
     </div>
 </body>
+
 </html>
