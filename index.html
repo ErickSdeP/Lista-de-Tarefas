@@ -21,44 +21,17 @@ perf: → melhoria de desempenho
 -->
 
 <body>
-    <div class="main">
+    <div id="main">
         <div class="title">
             <h1>Lista de Tarefas</h1>
             <span>Adicione suas tarefas</span>
         </div>
         <div class="add">
-            <input id="addTarefa" type="text" placeholder="Digite uma tarefa...">
+            <input id="addTarefa" type="text" placeholder="Digite uma tarefa..." autocomplete="off">
             <button id="adicionar">Adicionar</button>
         </div>
-        <ul class="tarefas">
-            <li class="tarefa">
-                <div class="conteudo">
-                    <input type="checkbox">
-                    <span>Estudar</span>
-                </div>
-                <button type="button">
-                    <img src="Svgs/Lixo.svg" alt="Excluir">
-                </button>
-            </li>
-            <li class="tarefa">
-                <div class="conteudo">
-                    <input type="checkbox">
-                    <span>Lavar a louça</span>
-                </div>
-                <button type="button">
-                    <img src="Svgs/Lixo.svg" alt="Excluir">
-                </button>
-            </li>
-            <li class="tarefa">
-                <div class="conteudo">
-                    <input type="checkbox">
-                    <span>Limpar a casa</span>
-                </div>
-                <button type="button">
-                    <img src="Svgs/Lixo.svg" alt="Excluir">
-                </button>
-            </li>
-        </ul>
+        <div class="tarefaT">
+        </div>
         <footer>Lista de tarefas feito para treinar Java Script 😁</footer>
     </div>
 </body>
